@@ -1,4 +1,3 @@
-````markdown
 # Chess Position Evaluator
 
 A from-scratch data science project exploring machine learning on chess positions: predicting game outcomes from a board position, and predicting Stockfish's own evaluation of that position. Built as a learning project to work through the full ML pipeline — data engineering, feature engineering, model comparison, evaluation, and diagnostic ablation studies — using real games rather than a toy dataset.
@@ -77,4 +76,3 @@ Run in order — each one builds on artifacts saved by the last:
 
 - Multi-class move prediction (predict the next move given a position) — a natural extension noted early on, likely better suited to a CNN/board-tensor representation than hand-engineered features
 - From-scratch gradient descent implementation (batch/SGD/mini-batch) alongside sklearn's optimizers, for the optimization-technique learning goal that motivated this project
-````
